@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a07c1d9d-1261-4577-8f78-34b1beff8119" name="Changes" comment="Arquivo criado">
-      <change afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/CarroFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/Eletrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/Montagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/Pintura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/padroesestruturais/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/padroesestruturais/Carro.java" afterDir="false" />
+    <list default="true" id="a07c1d9d-1261-4577-8f78-34b1beff8119" name="Changes" comment="Arquivos alterados">
+      <change afterPath="$PROJECT_DIR$/src/test/java/padroesestruturais/CarroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,9 +43,58 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="padroesestruturais" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CarroTest">
+    <configuration name="CarroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dcc078-padraoFacade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="padroesestruturais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="padroesestruturais" />
+      <option name="MAIN_CLASS_NAME" value="padroesestruturais.CarroTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroTest.deveRetornarPendenciaBibliotecaFormatura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dcc078-padraoFacade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="padroesestruturais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="padroesestruturais" />
+      <option name="MAIN_CLASS_NAME" value="padroesestruturais.CarroTest" />
+      <option name="METHOD_NAME" value="deveRetornarPendenciaBibliotecaFormatura" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CarroTest" />
+        <item itemvalue="JUnit.CarroTest.deveRetornarPendenciaBibliotecaFormatura" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668733679290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Arquivos alterados">
+      <created>1668734669536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668734669536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +136,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Arquivo criado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquivo criado" />
+    <MESSAGE value="Arquivos alterados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arquivos alterados" />
   </component>
 </project>
